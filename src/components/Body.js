@@ -1,12 +1,28 @@
-import React from 'react'
+import React,{useEffect, useRef} from 'react'
+import {TweenMax, Power3} from "gsap"
 import { StyledBody  } from './styles/Body.styled'
 import Header from "./Header"
 import Row from "./Row"
 import Udux from "./Udux"
 
 function Body() {
+
+  let bodyItem = useRef(null)
+
+  useEffect(()=> {
+    TweenMax.to(
+      bodyItem,
+      0.8,
+      {
+        opacity:1,
+        y:20,
+        ease: Power3.easeOut,
+        delay:0.2
+      }
+    )
+  })
   return (
-    <StyledBody>
+    <StyledBody ref={el => {bodyItem = el}}>
         <div className="body">
           <div className="body--head">
             <Header/>
