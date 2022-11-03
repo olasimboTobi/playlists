@@ -4,12 +4,10 @@ import styled from "styled-components";
 export const StyledHeader = styled.div`
   width: 100%;
   color:D9D9D9;
-  // margin-bottom:2em;
   background-color:rgb(0,0,0);
   .container {
       width: 65%;
       display:flex;
-    //   background-color:green;
       .arrows{
         width:40%;
         cursor:pointer;

@@ -53,7 +53,7 @@ export const StyledFramePhoto = styled.div`
     top:1em;
 
     img{
-      // object-fit: contain;
+      
       max-width:11.2rem;
       max-height:11.2rem;
     }
@@ -71,7 +71,6 @@ export const StyledFramePhoto = styled.div`
       top:1em;
   
       img{
-        // object-fit: contain;
         max-width:8.2rem;
         max-height:8.2rem;
       }

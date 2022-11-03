@@ -5,7 +5,6 @@ import uduxImage from "../../assets/Udux.png"
 export const StyledUdux = styled.div`
     width: 98%;
     color: #D9D9D9;
-    // margin-bottom:2em;
     padding:2em 1.5em;
     background-color: rgb(0,0,0);
     background-image: url(${uduxImage});

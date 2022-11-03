@@ -1,6 +1,5 @@
 import React,{useState} from 'react'
 import { StyledSidebar  } from './styles/Sidebar.styled'
-// import { StyledSidebarOption  } from './styles/SidebarOption.styled'
 import 'antd/dist/antd.min.css';
 import { Avatar } from "antd"
 import logoAvatar from '../assets/avatar.jpeg';
