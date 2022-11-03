@@ -5,6 +5,7 @@ export const StyledSidebar = styled.div`
   min-height: 100vh;
   flex: 0.2;
   color: #D9D9D9;
+//   overflow-y: scroll;
   font-size:1.6rem;
   width: min(20%, 29.2em);
   padding-left: 1em;
