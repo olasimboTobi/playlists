@@ -21,6 +21,9 @@ export const StyledBody = styled.div`
       display:flex;
       flex-direction:column;
       gap:2em;
+      .row + .row{
+        margin-top: 2em;
+      }
     }
   }
   @media screen and (min-width: 280px) and (max-width: 780px){
