@@ -1,36 +1,31 @@
-import React, { useEffect } from "react";
+import React,{useEffect, useRef} from 'react'
 import { Container } from './components/styles/Container.styled'
 import Sidebar from './components/Sidebar'
 import Body from './components/Body'
 import Footer from './components/Footer'
-import scrollreveal from "scrollreveal";
+import {TweenMax, Power3} from "gsap"
 
 
 function App() {
 
-  useEffect(() => {
-    const sr = scrollreveal({
-      origin: "bottom",
-      distance: "80px",
-      duration: 2000,
-      reset: false,
-    });
-    sr.reveal(
-      `
-        #sidebar,
-        #body,
-        #footer
-    `,
+
+  let appItem = useRef(null)
+
+  useEffect(()=> {
+    TweenMax.to(
+      appItem,
+      0.8,
       {
-        opacity: 0,
-        interval: 500,
+        opacity:1,
+        ease: Power3.easeOut.easeIn,
+        delay:0.3
       }
-    );
-  }, []);
+    )
+  })
 
   
   return (
-    <Container className="player__body">
+    <Container className="player__body" ref={el => {appItem = el}}>
       <Sidebar/>
       <Body/>
       <Footer/>
