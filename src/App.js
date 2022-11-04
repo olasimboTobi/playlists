@@ -17,13 +17,13 @@ function App() {
       0.8,
       {
         opacity:1,
-        ease: Power3.easeOut.easeIn,
+        ease: Power3.easeOut,
         delay:0.3
       }
     )
   })
 
-  
+
   return (
     <Container className="player__body" ref={el => {appItem = el}}>
       <Sidebar/>

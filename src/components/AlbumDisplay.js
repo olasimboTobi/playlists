@@ -34,15 +34,15 @@ function AlbumDisplay() {
         <FramePhoto 
           className="fourth"
           colors ="89.79deg, #AD4C1D -19.39%, #F6B726 123.38%"
-          title="Daily Vibes 2"
-          text = "Lojay, Oxlade, Amaa Rae, Rema, Omah Lay, SGawd....  "
+          title="Daily Vibes 1"
+          text="Burna Boy, Oxlade, Davido, Tems Wizkid, Tiwa Savage..... "
           imgUrl={ImgFrame1}
           />
         <FramePhoto 
           className="fifth"
           colors="89.79deg, #C61522 -19.39%, #030304 123.38%"
-          title="Daily Vibes 1"
-          text="Burna Boy, Oxlade, Davido, Tems Wizkid, Tiwa Savage..... "
+          title="Daily Vibes 2"
+          text = "Lojay, Oxlade, Amaa Rae, Rema, Omah Lay, SGawd....  "
           imgUrl={ImgFrame2}
           />
         <FramePhoto 
