@@ -29,11 +29,5 @@ export const StyledAlbumDisplay = styled.div`
   @media screen and (min-width: 280px) and (max-width: 780px){
     width: 98%;
     margin:0 auto;
-    // display: grid;
-    // grid-template-columns: repeat(2, 1fr);
-    // grid-template-rows: repeat(2, 1fr);
-    // row-gap: 2rem;
-    // column-gap: 1rem;
-
   }
 `
