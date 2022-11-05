@@ -51,8 +51,9 @@ export const StyledFramePhoto = styled.div`
     height:13.2rem;
     border: 0.8em solid black;
     position:absolute;
-    left:1em;
+    left:0.7em;
     top:1em;
+    // right:1em;
 
     img{
       
