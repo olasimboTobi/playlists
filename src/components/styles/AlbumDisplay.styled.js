@@ -5,7 +5,8 @@ export const StyledAlbumDisplay = styled.div`
   display: flex;
   justify-content:space-between;
   align-items: center;
-  gap:1em;
+  flex-wrap: wrap;
+  gap:0.8em;
   .first{
     flex: 1 2 auto;
   }

@@ -1,12 +1,14 @@
 import styled from "styled-components";
 
 export const StyledFramePhoto = styled.div`
-  width: 13em;
+  width: 11em;
   color:black;
   min-height: 30vh;
   background-color: white;
   border: 0.1em solid gray;
+  // transition: transform 200ms ease-in-out;
   &:hover{
+    // transform: scale(1.08)
     border: 0.1em solid blue;
   }
   position:relative;
