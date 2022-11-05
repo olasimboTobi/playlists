@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledAlbumDisplay = styled.div`
   width:90%;
   display: flex;
-  justify-content:space-between;
+  justify-content:flex-start;
   align-items: center;
   flex-wrap: wrap;
   gap:0.8em;
