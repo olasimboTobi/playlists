@@ -29,6 +29,9 @@ export const StyledAlbumDisplay = styled.div`
   @media screen and (min-width: 280px) and (max-width: 780px){
     width: 98%;
     margin:0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     gap:2em;
   }
 `
