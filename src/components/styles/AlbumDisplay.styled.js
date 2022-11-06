@@ -30,7 +30,7 @@ export const StyledAlbumDisplay = styled.div`
     width: 98%;
     margin:0 auto;
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap:2em;
   }
